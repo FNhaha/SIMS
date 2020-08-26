@@ -24,9 +24,6 @@ public class Student {
     @NotNull
     private String name;
 
-    @Column(name = "password", nullable = true)
-    private String password;
-
     @Column(name = "sex", nullable = false)
     @Size(min = 1, max = 1, message = "{sex.size}")
     @NotNull

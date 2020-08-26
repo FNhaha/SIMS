@@ -11,8 +11,8 @@
   <body>
     <div><h1>学生信息管理系统</h1></div>
 
-    <div><a href="<c:url value="/class/list?page=1" />">班级列表</a></div>
-    <div><a href="<c:url value="/student/list?page=1" />">学生列表</a></div>
-    <div><a href="<c:url value="/course/list?page=1" />">课程列表</a></div>
+    <div><a href="<c:url value="/classList?page=1" />">班级列表</a></div>
+    <div><a href="<c:url value="/studentList?page=1" />">学生列表</a></div>
+    <div><a href="<c:url value="/courseList?page=1" />">课程列表</a></div>
   </body>
 </html>
